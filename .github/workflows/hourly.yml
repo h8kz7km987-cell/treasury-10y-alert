@@ -25,3 +25,4 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
         run: python treasury_10y_alert.py
+# re-enable schedule
